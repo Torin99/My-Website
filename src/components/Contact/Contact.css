@@ -1,0 +1,9 @@
+.contact {
+  min-height: 91vh;
+  background: rgb(75, 75, 75);
+  display: flex;
+}
+
+.about h1 {
+  color: white;
+}

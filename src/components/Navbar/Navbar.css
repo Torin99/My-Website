@@ -31,16 +31,16 @@
 
 .list {
   position: relative;
-  right: 0%;
+  /* right: 0%; */
   /* padding-right: 5%; */
   /* margin-left: auto; */
   position: relative;
-  display: flex;
+  /* display: flex; */
   gap: 30px;
 }
 
 .list li:hover {
-  color: rgba(255, 114, 194, 0.947);
+  color: rgb(241, 90, 113);
   /* font-size: larger; */
   cursor: pointer;
 }
@@ -50,7 +50,7 @@
   text-decoration: none;
 }
 .navbar a:hover {
-  color: rgba(255, 117, 225, 0.744);
+  color: rgb(241, 90, 113);
 }
 
 ul {

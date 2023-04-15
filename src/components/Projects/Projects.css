@@ -1,0 +1,9 @@
+.projects {
+  min-height: 91vh;
+  background: rgb(194, 30, 120);
+  display: flex;
+}
+
+.about h1 {
+  color: white;
+}

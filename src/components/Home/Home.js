@@ -1,4 +1,4 @@
-import "./Hero.css";
+import "./Home.css";
 import links from "../../data/data";
 
 function Hero() {
