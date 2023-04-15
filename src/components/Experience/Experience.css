@@ -1,0 +1,9 @@
+.experience {
+  min-height: 91vh;
+  background: white;
+  display: flex;
+}
+
+.about h1 {
+  color: white;
+}

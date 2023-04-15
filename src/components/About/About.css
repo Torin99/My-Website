@@ -1,0 +1,9 @@
+.about {
+  min-height: 91vh;
+  background: black;
+  display: flex;
+}
+
+.about h1 {
+  color: white;
+}
