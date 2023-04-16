@@ -1,7 +1,7 @@
 import "./Home.css";
-import links from "../../data/data";
+import { links } from "../../data/data";
 
-function Hero() {
+function Home() {
   return (
     <section className="hero" id="home">
       <div className="hero-banner">
@@ -24,4 +24,4 @@ function Hero() {
     </section>
   );
 }
-export default Hero;
+export default Home;

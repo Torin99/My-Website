@@ -4,7 +4,7 @@ function Experience() {
   return (
     <section className="experience" id="experience">
       <div>
-        <h1>Experience</h1>
+        <h2>Experience</h2>
       </div>
     </section>
   );

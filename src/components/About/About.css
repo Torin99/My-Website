@@ -1,31 +1,34 @@
 .about {
   position: relative;
+  background-attachment: fixed;
   display: flex;
   min-height: 91vh;
-  background: black;
+  /* background: linear-gradient(rgb(65, 36, 51), black), */
+  background: linear-gradient(rgba(0, 0, 0, 0.774), rgba(96, 52, 74, 0.45)),
+    url("../../../public/moon.png") center/cover no-repeat;
+  background-image: url("../../../public/moon.png") center/cover no-repeat;
+  background-attachment: fixed;
+
+  /* background-attachment: fixed; */
   margin-top: 0%;
   justify-content: center;
   align-items: center;
 }
 .about-content {
-  position: relative;
-  /* top: 8rem; */
-  /* margin-top: -10%; */
-  display: grid;
-  justify-content: center;
-  align-items: center;
+  /* display: grid; */
 }
 
 .title {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-top: 0;
-  color: rgb(241, 90, 113);
+  margin-left: 20%;
+  color: white;
 }
 
 .about p {
   /* max-width: fit-content; */
   align-items: center;
-  color: white;
+  color: rgb(218, 233, 252);
   margin-top: -1rem;
   /* margin-left: 5%;*/
   margin-right: 10%;
@@ -40,7 +43,7 @@
   margin-right: 10%;
   max-height: 20rem;
   border-radius: 50%;
-  border: 3px solid rgb(241, 90, 113);
+  border: 3px solid rgb(185, 210, 240);
 }
 
 .bubble {
@@ -48,7 +51,7 @@
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background-color: rgb(241, 90, 113);
+  background-color: rgb(124, 180, 248);
   margin-top: -75px;
   margin-left: 75px;
   z-index: 0;
@@ -58,28 +61,28 @@
 #bubble1 {
   left: 0rem;
   bottom: 0rem;
-  animation: bubble1 4s ease-out 1s infinite;
+  animation: bubble 4s ease-out 1s infinite;
 }
 
 #bubble2 {
   left: 20rem;
   bottom: 5rem;
-  animation: bubble1 4s ease-out 4s infinite;
+  animation: bubble 4s ease-out 4s infinite;
 }
 
 #bubble3 {
   right: 15rem;
   bottom: 10rem;
-  animation: bubble1 4s ease-out 2s infinite;
+  animation: bubble 4s ease-out 2s infinite;
 }
 
 #bubble4 {
   right: 0rem;
   bottom: 0rem;
-  animation: bubble1 4s ease-out 3s infinite;
+  animation: bubble 4s ease-out 3s infinite;
 }
 
-@keyframes bubble1 {
+@keyframes bubble {
   0% {
     transform: translateY(0) scale(0.25);
     opacity: 0.2;

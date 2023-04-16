@@ -3,10 +3,10 @@ import "./About.css";
 function About() {
   return (
     <section className="about" id="about">
-      <div class="bubble" id="bubble1"></div>
-      <div class="bubble" id="bubble2"></div>
-      <div class="bubble" id="bubble3"></div>
-      <div class="bubble" id="bubble4"></div>
+      <div className="bubble" id="bubble1"></div>
+      <div className="bubble" id="bubble2"></div>
+      <div className="bubble" id="bubble3"></div>
+      <div className="bubble" id="bubble4"></div>
 
       <img src="Me.jfif" alt="Torin" />
       <div className="about-content">

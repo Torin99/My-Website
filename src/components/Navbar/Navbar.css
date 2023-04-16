@@ -40,7 +40,7 @@
 }
 
 .list li:hover {
-  color: rgb(241, 90, 113);
+  color: rgb(184, 108, 132);
   /* font-size: larger; */
   cursor: pointer;
 }
@@ -50,7 +50,7 @@
   text-decoration: none;
 }
 .navbar a:hover {
-  color: rgb(241, 90, 113);
+  color: rgb(191, 95, 126);
 }
 
 ul {

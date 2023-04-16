@@ -1,9 +1,11 @@
 .experience {
   min-height: 91vh;
-  background: white;
+  background: linear-gradient(rgba(81, 31, 161, 0.192), rgba(78, 78, 85, 0.774)),
+    url("../../../public/earth.jpg") center/cover no-repeat;
+
   display: flex;
 }
 
-.about h1 {
+.experience h2 {
   color: white;
 }
