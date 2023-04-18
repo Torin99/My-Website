@@ -1,11 +1,65 @@
 .contact {
   min-height: 91vh;
   /* background: rgb(63, 63, 63); */
-  justify-content: center;
+  /* justify-content: center;
   align-items: center;
-  display: flexbox;
+  display: flexbox; */
+  /* margin: auto; */
   background: linear-gradient(rgba(255, 121, 177, 0.192), rgba(0, 0, 0, 0.7)),
     url("../../../public/landing.jpg") center/cover no-repeat;
+}
+
+.contact-title {
+  display: flex;
+  justify-content: center;
+  padding-right: 35px;
+  margin: -10px auto;
+  max-width: 60%;
+  font-size: 2rem;
+  color: white;
+}
+
+.contact-form {
+  max-width: 60%;
+  margin: -10px auto;
+}
+
+.contact-form label {
+  color: white;
+  display: block;
+  margin: 10px auto;
+}
+
+.contact-form span {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.contact-form input {
+  padding: 10px 1%;
+  font-size: 1em;
+  /* color: #ddc4ed; */
+  width: 98%;
+  /* padding-top: 5%; */
+}
+.contact-form textarea {
+  padding: 10px 1%;
+  max-height: 10rem;
+  font-size: 1.3em;
+  /* color: #ddc4ed; */
+  width: 98%;
+  /* padding-top: 5%; */
+}
+
+.btn {
+  width: 100%;
+  /* display: block; */
+  /* margin-right: 0%; */
+  border: 1px solid white;
+}
+
+.btn:hover {
+  background: rgba(142, 57, 124, 0.594);
 }
 
 .about h1 {
