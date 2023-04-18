@@ -3,8 +3,8 @@ import { links } from "../../data/data";
 
 function Home() {
   return (
-    <section className="hero" id="home">
-      <div className="hero-banner">
+    <section className="home" id="home">
+      <div className="home-banner">
         <h1>Torin Borton-McCallum</h1>
         {/* <p>Welcome To My Website :)</p> */}
         <ul className="icons">
@@ -14,8 +14,6 @@ function Home() {
                 <a href={link.link} target="_blank" rel="noreferrer">
                   {link.icon}
                 </a>
-
-                {/* <p>{link.text}</p> */}
               </li>
             );
           })}

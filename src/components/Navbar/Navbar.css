@@ -13,14 +13,14 @@
 .navbar ul {
   display: flex;
   /* margin: 0 auto; */
-  padding-right: 5%;
+  /* padding-right: 5%; */
   /* max-width: 960px; */
   align-items: center;
   color: white;
 }
 
 .title {
-  padding-left: 5%;
+  /* padding-left: 5%; */
   /* margin-right: auto; */
   /* position: relative; */
   /* font-weight: bold; */
@@ -34,8 +34,8 @@
   /* right: 0%; */
   /* padding-right: 5%; */
   /* margin-left: auto; */
-  position: relative;
-  /* display: flex; */
+  /* position: relative; */
+  display: flex;
   gap: 30px;
 }
 

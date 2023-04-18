@@ -41,7 +41,7 @@
   /* margin-top: 10%; */
   margin-left: 5%;
   margin-right: 10%;
-  max-height: 20rem;
+  height: 25vw;
   border-radius: 50%;
   border: 3px solid rgb(185, 210, 240);
 }

@@ -1,4 +1,5 @@
 import "./About.css";
+import me from "../../images/Me.jfif";
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
       <div className="bubble" id="bubble3"></div>
       <div className="bubble" id="bubble4"></div>
 
-      <img src="Me.jfif" alt="Torin" />
+      <img src={me} alt="Torin" />
       <div className="about-content">
         <h2 className="title">About Me</h2>
         <p>
