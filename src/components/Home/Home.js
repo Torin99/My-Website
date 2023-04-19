@@ -11,7 +11,12 @@ function Home() {
           {links.map((link) => {
             return (
               <li className={link.class} key={link.id}>
-                <a href={link.link} target="_blank" rel="noreferrer">
+                <a
+                  href={link.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  id={link.text}
+                >
                   {link.icon}
                 </a>
               </li>

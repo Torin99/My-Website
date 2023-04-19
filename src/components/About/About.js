@@ -1,17 +1,29 @@
 import "./About.css";
 import me from "../../images/Me.jfif";
+import { useWindowSize } from "../../hooks/useWindowSize";
 
 function About() {
+  const size = useWindowSize();
   return (
     <section className="about" id="about">
       <div className="bubble" id="bubble1"></div>
       <div className="bubble" id="bubble2"></div>
       <div className="bubble" id="bubble3"></div>
       <div className="bubble" id="bubble4"></div>
-
-      <img src={me} alt="Torin" />
+      {size.width > 800 && (
+        <div className="image">
+          <img src={me} alt="Torin" />
+        </div>
+      )}
       <div className="about-content">
-        <h2 className="title">About Me</h2>
+        <div className="title">
+          <h2>About Me</h2>
+        </div>
+        {size.width <= 800 && (
+          <div className="image">
+            <img src={me} alt="Torin" />
+          </div>
+        )}
         <p>
           Hey! Thanks for visiting my website and taking the time to get to know
           me :) So... Who is Torin? Well, I'm a senior Computer Science student

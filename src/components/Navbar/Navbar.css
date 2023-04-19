@@ -11,37 +11,20 @@
 }
 
 .navbar ul {
-  display: flex;
-  /* margin: 0 auto; */
-  /* padding-right: 5%; */
-  /* max-width: 960px; */
-  align-items: center;
-  color: white;
-}
-
-.title {
-  /* padding-left: 5%; */
-  /* margin-right: auto; */
-  /* position: relative; */
-  /* font-weight: bold; */
-  letter-spacing: 1px;
-  font-size: 1.2em;
   color: white;
 }
 
 .list {
-  position: relative;
-  /* right: 0%; */
-  /* padding-right: 5%; */
-  /* margin-left: auto; */
-  /* position: relative; */
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 55px;
   gap: 30px;
+  font-size: 13px;
 }
 
 .list li:hover {
   color: rgb(184, 108, 132);
-  /* font-size: larger; */
   cursor: pointer;
 }
 
@@ -73,5 +56,4 @@ ul {
 .btn:hover {
   /* color: red; */
   border: 1px solid white;
-  /* font-size: medium; */
 }

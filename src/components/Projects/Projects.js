@@ -59,10 +59,14 @@ function Projects() {
           return (
             <article className={position} key={key}>
               <h2>{title}</h2>
-              <a href={link}>
-                <img className="project-image" src={image} alt={title} />
-              </a>
-              <p>{description}</p>
+              <div className="center">
+                <a href={link}>
+                  <img className="project-image" src={image} alt={title} />
+                </a>
+              </div>
+              <div className="description">
+                <p className="text">{description}</p>
+              </div>
             </article>
           );
         })}
