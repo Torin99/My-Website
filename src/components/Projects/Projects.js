@@ -67,15 +67,15 @@ function Projects() {
               <div className="description">
                 <p className="text">{description}</p>
               </div>
+              <button className="prevButton" onClick={prevProject}>
+                <BiLeftArrow />
+              </button>
+              <button className="nextButton" onClick={nextProject}>
+                <BiRightArrow />
+              </button>
             </article>
           );
         })}
-        <button className="prevButton" onClick={prevProject}>
-          <BiLeftArrow />
-        </button>
-        <button className="nextButton" onClick={nextProject}>
-          <BiRightArrow />
-        </button>
       </div>
     </section>
   );

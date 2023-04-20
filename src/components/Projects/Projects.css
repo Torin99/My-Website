@@ -5,12 +5,13 @@
     url("../../../public/earth2.jpg") center/cover no-repeat;
   background-image: url("../../../public/earth2.jpg") center/cover no-repeat;
   background-attachment: fixed;
-  overflow-x: hidden;
+  overflow: hidden;
+  position: relative;
 }
 
 .title {
   /* background: blue; */
-  margin: auto;
+  /* margin: auto; */
   display: flex;
   justify-content: center;
 }
@@ -38,15 +39,16 @@
 
 .projects-display {
   margin: auto;
-  margin-top: 3rem;
-  width: 80vw;
-  height: 450px;
+  /* margin-top: -20%; */
+  width: 100vw;
+  height: 70vh;
   max-width: 800px;
   text-align: center;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background: red; */
   /* overflow: hidden; */
 }
 
@@ -54,7 +56,8 @@ article {
   position: absolute;
   /* justify-content: center; */
   /* margin: auto; */
-  bottom: 8rem;
+  /* top: 50%; */
+  /* left: 50%; */
   width: 65vw;
   height: 25rem;
   transition: all 0.3s linear;
@@ -78,11 +81,11 @@ article.next .prevButton {
 }
 
 article.previous {
-  transform: translateX(-75%);
+  transform: translateX(-100%);
 }
 
 article.next {
-  transform: translateX(75%);
+  transform: translateX(100%);
 }
 
 article h2 {
@@ -111,7 +114,8 @@ article h2 {
   height: 4rem;
   width: 4rem;
   position: absolute;
-  top: 15%;
+  bottom: 50%;
+  /* left: 50%; */
   font-size: 5rem;
   color: white;
   background: none;
@@ -122,13 +126,6 @@ article h2 {
 .nextButton:hover {
   color: rgb(156, 200, 255);
   cursor: pointer;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* z-index: 0; */
 }
 
 .prevButton {
@@ -147,20 +144,15 @@ article h2 {
 
 @media screen and (max-width: 1200px) {
   .prevButton {
-    left: -40px;
+    left: -25%;
   }
   .nextButton {
-    right: -12px;
+    right: -18%;
   }
 
   article p {
     width: 100%;
   }
-
-  /* article.previous,
-  article.next {
-    visibility: hidden;
-  } */
 
   article.previous {
     transform: translateX(-150%);
